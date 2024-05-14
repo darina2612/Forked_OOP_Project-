@@ -8,6 +8,7 @@ class Image
 
 public:
     Image();
+    //Мисля, че трябва да се направи конструктор, който да взема файл. Ще може да се използва във factory-то. Там има коментар каква е идеята да стане.
     //Image(std::string &filename) : filename(fname);
     Image(Image const & other);
     Image(Image && other);
